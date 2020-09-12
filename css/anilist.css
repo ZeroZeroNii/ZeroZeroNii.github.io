@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+ width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ background: #151f2e; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+ background: #fc9dd6; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+ background: #d583b4; 
+}
+
+/* CURSOR */
+* { 
+ cursor: url("https://i.imgur.com/rPFBwRz.png"), auto;
+}
+
+[href="/user/ZeroZeroNi/"], .nav-btn[data-v-5445dac8], span[data-v-5445dac8] {
+ cursor: url("https://i.imgur.com/Dis0Pkr.png"), pointer !important;
+}
+
+/*clickable*/
+.action, .button, path, .count, .svg-inline--fa, .dropdown, .el-icon-arrow-down, .link[data-v-9132cd06], .link[data-v-0a867854], .context[data-v-9132cd06], .avatar[data-v-9132cd06], .reset-btn[data-v-0a867854] {
+ cursor: url("https://i.imgur.com/uh9a3nV.png"), pointer !important;
+}
+
+/*input
+.el-textarea__inner {
+ cursor: url("https://i.imgur.com/ZlnIWL1.png"), text;
+} */
+
+a[data-v-93c5960c] {
+ cursor: url("https://i.imgur.com/Pu1Iulv.png"), auto;
+}
+
+.nav-btn {
+ cursor: url("https://i.imgur.com/Dis0Pkr.png"), auto;
+}
+
+/* NOTIFICATIONS */
+.notification {
+ transition: transform 0.5s;
+}
+
+.notification:hover {
+ transform: scale(1.03);
+}
+
+/*TOP NAV */
+.container[data-v-0a867854] {
+ margin-top: 80px !important;
+}
+
+.nav[data-v-4fbac4e1] {
+ background: rgba(35, 38, 67, 0) !important;
+ transition: background 0.5s;
+ z-index: 2;
+}
+
+.nav[data-v-4fbac4e1]:hover {
+ background: rgba(35, 38, 67, 0) !important;
+}
+
+.nav[data-v-4fbac4e1] .wrap[data-v-4fbac4e1] {
+ transform: translate(0px, -80px);
+ transition-timing-function: ease-in-out;
+ transition: transform 1s;
+}
+
+.nav[data-v-4fbac4e1]:hover .wrap[data-v-4fbac4e1] {
+ transform: translate(0px, 0px);
+}
+
+.nav[data-v-4fbac4e1] + .page-content {
+ transition-timing-function: ease-in-out;
+ transform: translate(0px, -80px);
+ transition: transform 1s, margin-top;
+}
+
+.nav[data-v-4fbac4e1]:hover + .page-content {
+ transform: translate(0px, 0px);
+}
+
+.logo[data-v-4fbac4e1] {
+ transition: transform 1s;
+}
+
+.logo[data-v-4fbac4e1]:hover {
+ transform: scale(1.2);
+}
+
+.links[data-v-4fbac4e1] {
+ max-width: 700px;
+ transition: transform 1s;
+ margin: auto;
+}
+
+.links[data-v-4fbac4e1]:hover {
+ transform: scale(1.1);
+}
+
+.link[data-v-4fbac4e1] {
+ transition: transform 0.5s, color 0.5s;
+}
+
+.link[data-v-4fbac4e1]:hover {
+ transform: scale(1.1);
+ color: #fc9dd6 !important;
+}
+
+.user[data-v-4fbac4e1] {
+ transition: transform 0.5s;
+}
+
+.user[data-v-4fbac4e1]:hover {
+ transform: scale(1.1);
+}
+
+.svg-inline--fa[data-v-4fbac4e1] {
+ transition: transform 1s;
+}
+
+.svg-inline--fa[data-v-4fbac4e1]:hover {
+ transform: scale(1.2);
+}
+
+/* NAME */
+.name[data-v-5445dac8] {
+ font-size: 110px;  
+ color: #fff;
+ margin-top: -50px;
+ animation-name: glowing;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ z-index: 2;
+}
+
+@keyframes glowing {
+ 0% {text-shadow: 0 0 5px #fff;}
+ 50% {text-shadow: 0 0 5px #fc9dd6, 0 0 15px #fc9dd6}
+ 100% {text-shadow: 0 0 5px #fff;}
+}
+
+/* AVATAR */
+.avatar[data-v-5445dac8] {
+ position: absolute !important;
+ margin-top: 73px !important;
+ z-index: 3;
+}
+
+/* BANNER */
+.banner, .container[data-v-5445dac8]:not(.nav), .shadow[data-v-5445dac8] {
+ border-width: 2px;
+ border-style: none none solid;
+ border-color: #fc9dd6;
+ border-radius: 1px;  
+}
+
+.banner {
+ margin-top: 76px;
+ background-image: url("https://i.imgur.com/gKRumPR.png") !important;
+ max-width: auto;
+ min-width: 770px;
+ height: 330px !important;
+ transition: height 1s;
+}
+
+.hohDownload{
+ visibility:hidden;
+}
+
+/* BANNER-CONTENT */
+.banner-content[data-v-5445dac8] {
+ display: flex;
+ height: 250px;
+ position: relative;
+ flex-direction: column;
+ align-items: center;
+ align-content: center;
+}
+
+/* FOLLOW */
+.nav-btn[data-v-5445dac8] {
+ transition: transform 1s;
+ width: 150px;
+}
+
+.nav-btn[data-v-5445dac8]:hover {
+ transform: scale(1.1);
+}
+
+.el-message--success {
+ background-color: #fc9dd6;
+}
+
+.el-message__content {
+ color: #ff54bb !important;
+}
+
+.el-icon-success {
+ color: #ff54bb !important;
+}
+
+.dropdown {
+ transition: transform 1s;
+}
+
+.dropdown:hover {
+ transform: translate(0px, -2px);
+}
+
+/* FOLLOWER BADGE*/
+.follower-badge {
+ visibility: hidden;
+}
+
+.follower-badge::after {
+ visibility: visible;
+ content: "I like you";
+ font-size: 20px;
+ background-color: #fc9dd6;
+ border-radius: 2px 2px 10px 10px;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-top: 4px;
+ padding-bottom: 4px;
+ position: relative;
+ right: 30px;
+ bottom: 198px;
+}
+
+/* CUSTOM USERS*/
+
+/* EVERYONE */
+.name[data-v-5e514b1e]:not([href="/user/ZeroZeroNi/"])::after, .name[data-v-5a191921]:not([href="/user/ZeroZeroNi/"])::after {
+ content: "❤";
+ color: #fff;
+ padding-left: 3px;
+ padding-right: 3px;
+ border-radius: 5px;
+ position: relative;
+}
+
+/* PREMIUM */
+a[href*="/user/Noah"], a[href*="/user/zerohead"], a[href*="/user/Nahnah"], a[href*="/user/zavan"], a[href*="/user/Fear"], a[href*="/user/Swishilicous"], a[href*="/user/milach"], a[href*="/user/Asuna"] {
+ color: #fff !important;
+ animation-name: glowing;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ z-index: 2;
+}
+
+/* ME */
+.name[href="/user/ZeroZeroNi/"] {
+ color: #fff !important;
+ animation-name: glowing;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ z-index: 2;
+}
+
+/* NOAH */
+a[href="/user/Noah/"] {
+ 
+}
+
+/* ZEROHEAD */
+a[href="/user/zerohead/"] {
+ 
+}
+
+/* NAHNAH */
+a[href="/user/Nahnah/"] {
+ 
+}
+
+/* ZAVAN */
+a[href="/user/zavan/"] {
+ 
+}
+
+/* FEAR */
+a[href="/user/Fear/"] {
+ 
+}
+
+/* SWISHILICOUS */
+a[href="/user/Swishilicous/"] {
+ 
+}
+
+/* ASUNA */
+.name[href="/user/Asuna/"] {
+ 
+}
+
+/* NAV */
+
+.nav-wrap[data-v-5445dac8] {
+ border-radius: 20px;
+ max-width: 1500px;
+ min-width: 1100px;
+ height: 48px;
+ margin: auto;
+ margin-top: 20px;
+ transition: transform 1s;
+}
+
+.nav-wrap[data-v-5445dac8]:hover {
+ transform: scale(1.05);
+}
+
+.nav[data-v-5445dac8] {
+ max-width: 1500px;
+ min-width: 1100px;
+}
+
+.link[data-v-5445dac8] {
+ font-size: 16px;
+ transition: transform 0.5s, color 0.5s;
+}
+
+.link[data-v-5445dac8]:hover {
+ transform: scale(1.2);
+ color: #fc9dd6;
+}
+
+/* ABOUT */
+.content-wrap[data-v-2cf72664] {
+ transition: transform 0.5s;
+  border-radius: 10px !important;
+}
+
+.content-wrap[data-v-2cf72664]:hover {
+ transform: scale(1.03);
+}
+
+.desktop {
+ transition: transform 0.5s;
+}
+
+.desktop:hover {
+ transform: scale(1.03)
+}
+
+.favourite {
+ transition: transform 0.5s;
+}
+
+.favourite:hover {
+ transform: scale(1.1);
+}
+
+/* ACTIVITY */
+.el-textarea__inner, .markdown-editor, .wrap[data-v-5e514b1e] {
+ transition: transform 0.5s;
+}
+
+.el-textarea__inner:hover, .markdown-editor:hover, .wrap[data-v-5e514b1e]:hover {
+ transform: scale(1.03);
+}
+
+.markdown-editor {
+ transition: transform 0.5s;
+}
+
+.markdown-editor:hover {
+ transform: scale(1.03);
+}
+
+.preview {
+ transition: transform 0.5s;
+}
+.preview:hover {
+ transform: scale(1.01);
+}
+
+.save, .cancel {
+ transition: transform 0.5s;
+}
+
+.save:hover, .cancel:hover {
+ transform: scale(1.1);
+}
+
+[data-v-e529d5e4] {
+ transition: transform 0.5s;
+}
+
+[data-v-e529d5e4]:hover {
+ transform: scale(1.03)
+}
+
+.reply {
+ transition: transform 0.5s;
+}
+
+.reply:hover {
+ transform: scale(1.03);
+}
+
+.liked .count, .liked .fa-heart {
+ color: #ff6ac3;
+}
+
+/* SOCIAL */
+.thread-card {
+ border-radius: 2px;
+ transition: transform 0.5s;
+}
+
+.thread-card:hover {
+ transform: scale(1.05);
+}
+
+.title {
+ transition: color 0.2s;
+}
+
+.title:hover {
+ color: #fc9dd6;
+}
+
+.comment-wrap {
+ border-radius: 2px;
+ transition: transform 0.5s;
+}
+
+.comment-wrap:hover {
+ transform: scale(1.05);
+}
+
+.user[data-v-768af104] {
+ transition: transform 0.5s;
+}
+
+.user[data-v-768af104]:hover {
+ transform: scale(1.1);
+}
+
+/* FONTS */
+p, h1, h2, h3, h4, h5, h6, textarea, a {
+ font-family: 'Permanent Marker', cursive;
+}
+
+/* IMAGES */
+img:not(.avatar) {
+ border-radius: 5px !important;
+ transition: transform 0.5s, border-radius 0.5s;
+}
+
+img:hover:not(.avatar) {
+ border-radius: 2px !important;
+ transform: scale(1.03);
+}

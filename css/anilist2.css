@@ -1,0 +1,140 @@
+ /* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #151f2e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fc9dd6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #db89ba;
+}
+
+/* TOP NAV*/
+.nav[data-v-4fbac4e1] {
+    background: rgba(35,38,67,0) !important;
+    transition: background 1s !important;
+}
+
+.nav[data-v-4fbac4e1]:hover {
+    background: rgba(35,38,67, 0.7) !important;
+}
+
+@keyframes dropdown {
+    from {transform: translate(0px, -100px)}
+    to {transform: translate(0px, 0)}
+}
+
+.wrap[data-v-4fbac4e1] {
+    margin-top: -100px !important;
+    transition: margin-top 0.5s;
+}
+
+.nav[data-v-4fbac4e1]:hover .wrap[data-v-4fbac4e1] {
+    margin-top: 0px !important;
+}
+
+
+/* BANNER */
+.banner {
+    background-image: url("https://i.imgur.com/gKRumPR.png") !important;
+}
+
+/* BANNER CONTENT */
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* BANNER DOWNLOAD */
+.hohDownload {
+    visibility: hidden;
+}
+
+/* AVATAR */
+.avatar[data-v-5445dac8] {
+    position: absolute;
+    z-index: 1 !important;
+}
+
+/* NAME */
+.name[data-v-5445dac8] {
+    position: absolute;
+    font-size: 150px;
+    text-shadow: 0px 0px 10px #fff, 0px 0px 15px #fc9dd6, 0px 0px 25px #fc9dd6;
+    margin-bottom: 70px;
+}
+
+.banner-content h1.name {
+    filter: none !important;
+}
+
+.actions .nav-btn[data-v-5445dac8] {
+    border-radius: 10px;
+}
+
+.follower-badge[data-v-5445dac8] {
+    border-radius: 10px;
+}
+
+/* NAV */
+.nav-wrap[data-v-5445dac8]{
+    border-bottom: 4px solid #fc9dd6;
+    border-radius: 0px 0px 10px 10px
+}
+
+/* CUSTOM NAMES */
+.name[data-v-5e514b1e]:after, .name[data-v-5a191921]:after {
+    content: "❤";
+    color: white;
+    animation: glow infinite 5s;
+}
+
+/* BIO */
+.about .content-wrap[data-v-2cf72664] {
+    overflow: hidden !important;
+}
+
+.about .content-wrap .markdown {
+    height: 100% !important;
+}
+
+.about .content-wrap .markdown h3 {
+    visibility: visible;
+    transition: transform 1s;
+}
+
+.about .content-wrap .markdown h3:after {
+    font-size: 70px;
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    content: "❤";
+    color: white;
+    animation: glow infinite 5s;
+}
+
+.about .content-wrap .markdown h3:active {
+    transform: scale(1.2);
+}
+
+@keyframes glow {
+    0% {text-shadow: 0px 0px 10px #fff, 0px 0px 15px #fc9dd6, 0px 0px 25px #fc9dd6;}
+    50% {text-shadow: 0px 0px 10px #fff, 0px 0px 15px #fff, 0px 0px 25px #fff;}
+    100% {text-shadow: 0px 0px 10px #fff, 0px 0px 15px #fc9dd6, 0px 0px 25px #fc9dd6;}
+}
+
+.site-theme-dark {
+    
+}
