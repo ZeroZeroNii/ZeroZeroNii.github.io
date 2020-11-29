@@ -18,7 +18,6 @@ body {
   animation: intro 2s ease;
   animation-fill-mode: forwards;
   height: 300px;
-  border: 10px solid;
 }
 
 .header {
