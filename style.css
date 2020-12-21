@@ -117,24 +117,34 @@ padding: 0;
 margin: 0;
 }
 
+.formbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .form {
   background-color: rgba(0, 0, 0, 0.2);
-  min-width: 300px;
-  border-radius: 30px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50px;
   display: grid;
 }
 
 .cssheader1 {
   color: white;
   font-family: "impact";
-  font-size: 70px;
+  font-size: 50px;
   height: auto;
   margin-bottom: 10px;
   text-align: center;
+  text-decoration: underline;
 }
 
 .csslink {
   color: white;
   font-size: 30px;
   text-align: center;
+  text-decoration: none;
 }
