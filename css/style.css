@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-body{
-  margin: 0;
+body {
   padding: 0;
-  background-color: #081018;
+  margin: 0;
+  background-color: #0d1a26;
+}
+
+h1 {
+  font-family: "impact";
+  color: white;
+  font-size: 50px;
 }
 
 .navigation {
@@ -27,14 +33,6 @@ body{
   left:50%;
   top:50%;
   transform: translate(-50%, -50%);
-}
-
-h1 {
-  font-size: 50px;
-  text-align: center;
-  text-decoration: underline;
-  color: white;
-  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .link {

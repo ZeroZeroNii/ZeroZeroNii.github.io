@@ -9,10 +9,33 @@
   <body bgcolor="#0d1a26">
     <div class="center">
       <h1 class="header">ZeroZeroNii</h1>
-      <a class="link" href="#section1">CSS</a>
+      <a class="link" href="css/index.html">CSS</a>
+      <a class="link" href="music/index.html">Music</a>
     </div>
+
+    <div class="player-box">
+      <img class="cover" src="cover.png" alt="">
+      <div class="player">
+        <div class="controls">
+          <audio id="song" preload="metadata" onloadedmetadata="mDur()" ontimeupdate="mPlay()">
+            <source src="song 70 beattt.mp3" type="audio/mpeg">
+          </audio>
+          <input id="play" type="image" src="svg/play-circle-outline.svg" onclick="playPause()" />
+        </div>
+        <input id="seekbar" type="range" name="rng" min="0" step="0.25" value="0" onchange="mSet()">
+      </div>
+    </div>
+
     <section id="section1">
-      <h2 class="header2">CSS</h2>
+      <h2 class="header2" href="/css">CSS</h2>
+      <div class="form">
+        <h1 class="cssheader1">Anilist</h1>
+        <a class="csslink" href="css/anilist.css">Anilist(Old)</a><br>
+        <a class="csslink" href="css/anilist2.css">Anilist</a>
+        <h1 class="cssheader1">Discord</h1>
+        <a class="csslink" href="css/tycord.css">Tycord</a><br>
+      </div>
     </section>
+
   </body>
 </html>

@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
-h1, a {
+.header, a {
   font-family: "impact";
 }
 
@@ -52,6 +52,7 @@ body {
 
 .link {
   font-size: 50px;
+  padding-right: 20px;
   text-decoration: none;
   color:white;
   position: relative;
@@ -62,6 +63,78 @@ body {
 }
 
 #section1 {
-      width: 100%;
-      height: 100vh;
+  width: 100%;
+  height: 100vh;
+}
+
+#section2 {
+  width: 100%;
+  height: 100vh;
+}
+
+.player-box {
+position: fixed;
+bottom: 0px;
+height: 100px;
+width: 100%;
+display: flex;
+align-items: flex-end;
+background-image: url("cover.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.cover {
+height: 100px;
+width: 100px;
+}
+
+.player {
+height: 100%;
+width: 100%;
+display: grid;
+backdrop-filter: blur(30px);
+}
+
+.controls {
+height: auto;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#play {
+height: 50px;
+width: 50px;
+outline: none;
+}
+
+#seekbar {
+width: 100%;
+padding: 0;
+margin: 0;
+}
+
+.form {
+  background-color: rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+  border-radius: 30px;
+  display: grid;
+}
+
+.cssheader1 {
+  color: white;
+  font-family: "impact";
+  font-size: 70px;
+  height: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.csslink {
+  color: white;
+  font-size: 30px;
+  text-align: center;
 }
